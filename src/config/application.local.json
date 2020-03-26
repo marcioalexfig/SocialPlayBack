@@ -1,0 +1,28 @@
+{
+    "server":{
+        "port": "10080",
+        "staticPath" : "./public",
+        "logging":{
+            "level" : "dev",
+            "file" : false
+        }
+    },
+    "security":{
+        "tokenSecrete" : "P7TPwLX8W#upnR@KhAHjTtk+MbRf!n%tvA3MAzbs^#skbA8ncuN6sx=HyWsX7sdZ@SqTe&A3mCkuudYBE^N#_@dJ3Uvq!AjFVru%HX*C7ZCk3PSGKuq*#Pe%!WkkDbd*",
+        "salt" : "yfGhTNXc$@+NwJ4=6k%h?yuTJ_jX$z5r4=7*%EZGBFvR!HYkqk4v4Ae!9fUJ9Y*%",
+
+        "disabledHeader" : [
+            "x-powered-by"
+        ],
+
+        "hidePoweredBy" : "PHP 5.5.14",
+        "blockXSS" : true,
+        "nosniff" : false
+    },
+    "database":{
+
+    },
+    "custom":{
+
+    }
+}

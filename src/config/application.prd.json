@@ -1,0 +1,37 @@
+{
+    "server":{
+        "port": "80",
+        "staticPath" : "./public",
+        "logging":{
+            "level" : "combined",
+            "file" : true
+        }
+    },
+    "security":{
+        "tokenSecrete" : "P7TPwLX8W#upnR@KhAHjTtk+MbRf!n%tvA3MAzbs^#skbA8ncuN6sx=HyWsX7sdZ@SqTe&A3mCkuudYBE^N#_@dJ3Uvq!AjFVru%HX*C7ZCk3PSGKuq*#Pe%!WkkDbd*",
+        "salt" : "yfGhTNXc$@+NwJ4=6k%h?yuTJ_jX$z5r4=7*%EZGBFvR!HYkqk4v4Ae!9fUJ9Y*%",
+
+        "disabledHeader" : [
+            "x-powered-by"
+        ],
+
+        "hidePoweredBy" : "PHP 5.5.14",
+        "blockXSS" : true,
+        "nosniff" : false
+    },
+    "database":{
+        "mongodb":{
+            "user" : false,
+            "pass" : false,
+            "addr" : "mongo",
+            "port" : "27017",
+            "db"   : "pio"
+        },
+        "oracle":{
+            
+        }
+    },
+    "custom":{
+
+    }
+}
